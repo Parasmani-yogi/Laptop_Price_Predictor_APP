@@ -179,4 +179,3 @@ streamlit run app.py
 9. Streamlit Deployment
 
 
-If you found this project useful, consider giving this repository a ⭐ on GitHub.
