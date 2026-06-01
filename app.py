@@ -62,7 +62,7 @@ screen_size = st.number_input('Screen Size')
 # Resolution
 resolution = st.selectbox(
     "Screen Resolution",
-    [
+    options=[
         '1920x1080',
         '1366x768',
         '1600x900',
@@ -72,7 +72,9 @@ resolution = st.selectbox(
         '2560x1600',
         '2560x1440',
         '2304x1440'
-    ]
+    ],
+    index=None,
+    placeholder="Select Screen Resolution"
 )
 
 # CPU
